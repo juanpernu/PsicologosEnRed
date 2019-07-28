@@ -74,9 +74,23 @@ input, select, textarea {
 
 /* Basic */
 
+  img.logo-cover {
+    width: 120px !important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.10);
+    margin-bottom: 50px;
+    display: block;
+    border-radius: 50%;
+  }
+
+  @media screen and (max-width: 720px) {
+    img.logo-cover {
+      width: 100px !important;
+    }
+  }
+
 	@-ms-viewport {
 		width: device-width;
-	}
+  }
 
 	body {
 		-ms-overflow-style: scrollbar;
